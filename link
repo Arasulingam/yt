@@ -1,0 +1,5 @@
+git clone https://github.com/dylanaraps/neofetch.git
+cd neofetch
+make install PREFIX=$HOME/.local
+echo 'export PATH=$HOME/.local/bin:$PATH' >> ~/.bashrc
+source ~/.bashrc
